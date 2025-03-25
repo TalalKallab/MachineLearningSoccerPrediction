@@ -7,7 +7,7 @@ def main():
     print("\n Starting the Soccer League Simulation Project...\n")
 
 
-    print("🔧 Step 1: Training Models...")
+    print(" Step 1: Training Models...")
     try:
         train_models()
         print(" Models trained successfully!\n")
@@ -29,7 +29,7 @@ def main():
     try:
         output_path = "final_league_standings.csv"
         final_table.to_csv(output_path)
-        print(f"\n📂 Final standings saved as '{output_path}'")
+        print(f"\n Final standings saved as '{output_path}'")
     except Exception as e:
         print(f" Error saving final standings: {str(e)}")
 
