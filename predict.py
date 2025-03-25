@@ -12,15 +12,15 @@ print("Models were loaded successfully")
 
 def predict_result(home_team, away_team):
     # Step 1: Load the team mapping file
-    file_path = "/Users/talalkallab/IdeaProjects/CEG4112_Project/Team_Mapping.csv"
+    file_path = "/Users/FILE_PATH/Team_Mapping.csv"
     data = pd.read_csv(file_path)
 
     # Load the main match data (LaLiga_V2.csv)
-    file_path2 = "/Users/talalkallab/IdeaProjects/CEG4112_Project/LaLiga_V2.csv"
+    file_path2 = "/Users/FILE_PATH/LaLiga_V2.csv"
     data2 = pd.read_csv(file_path2)
 
     # Load the season stats data (LaLiga_Season_Stats.csv)
-    file_path3 = "/Users/talalkallab/IdeaProjects/CEG4112_Project/LaLiga_Season_Stats.csv"
+    file_path3 = "/Users/FILE_PATH/LaLiga_Season_Stats.csv"
     data3 = pd.read_csv(file_path3)
 
     # Clean up column names to remove any extra whitespace
