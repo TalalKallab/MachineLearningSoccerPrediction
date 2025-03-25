@@ -37,29 +37,6 @@ Kaggle La Liga Results (1995-2020) --> https://www.kaggle.com/datasets/kishan305
 FBRef La Liga Seasons History (1995-2024) --> https://fbref.com/en/comps/12/history/La-Liga-Seasons
 
 
-#Project Structure
-
-SoccerLeagueSimulation/
-├── README.md
-├── report.pdf
-├── data/
-│   ├── LaLiga_V2.csv
-│   ├── cleaned_LaLiga_Results.csv
-│   ├── final_league_standings.csv
-│   └── Team_Mapping.csv
-├── models/
-│   ├── match_result_model.pkl
-│   ├── home_goals_model.pkl
-│   └── away_goals_model.pkl
-├── scripts/
-│   ├── train_model.py
-│   ├── predict.py
-│   ├── simulate_match.py
-│   ├── simulate_league.py
-│   └── main.py
-└── report_generator.py
-
-
 Python: Core programming language.
 
 Scikit-learn: For training classification and regression models.
