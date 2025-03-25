@@ -8,9 +8,10 @@ from sklearn.metrics import accuracy_score
 
 # --- Load Data ---
 def load_data():
-    file_path = "/Users/talalkallab/IdeaProjects/CEG4112_Project/LaLiga_V2.csv"
+    file_path = "/Users/FILE_PATH/LaLiga_V2.csv"
     data = pd.read_csv(file_path)
-    season_stats_path = "/Users/talalkallab/IdeaProjects/CEG4112_Project/LaLiga_Season_Stats.csv"
+    
+    season_stats_path = "/Users/FILE_PATH/LaLiga_Season_Stats.csv"
     season_stats = pd.read_csv(season_stats_path)
 
     print("First 5 Rows of Main Data:")
